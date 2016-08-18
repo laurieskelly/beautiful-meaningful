@@ -1,0 +1,9 @@
+<h1> Seasons </h1>
+
+<ul id="season_list">
+    <% @seasons.each do |season| %>
+        <li class="season-link">
+           <a <%= season.year %>
+        </li>
+    <% end %>
+</ul>
