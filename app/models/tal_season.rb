@@ -1,3 +1,4 @@
 class TALSeason < ActiveRecord::Base
-  # Remember to create a migration!
+
+  has_many :episodes, foreign_key: :season_id, class_name: talepisode:
 end
