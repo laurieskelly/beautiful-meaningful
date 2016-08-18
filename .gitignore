@@ -1,3 +1,4 @@
 data/raw/*.dat
 Gemfile.lock
 halps/*
+*.dat
