@@ -4,6 +4,7 @@ gem 'rspec', '~> 3.2'
 gem 'nokogiri', '~>1.6.0'
 
 gem 'pg'
+gem 'pry'
 
 gem 'sinatra'
 gem 'sinatra-contrib'
