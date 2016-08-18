@@ -1,3 +1,5 @@
 class TALEpisode < ActiveRecord::Base
-  # Remember to create a migration!
+
+  belongs_to :season, class_name: :talseason
+
 end
