@@ -78,3 +78,11 @@ class EpisodeParser
   end
 
 end
+
+class EpisodeDetailParser
+
+end
+
+class TranscriptParser
+
+end
