@@ -18,7 +18,7 @@ The script `touch_of_glass.rb` will pull and print a random sampling of my datab
 
 A sampling, below. 
 
-![](readme_assets/mmmvp.png)
+![](readme_assets/mmmvp_sample.png)
 
 ### I'm Laur Skelly and from Dev Bootcamp in Chicago, this is A Touch of Glass. 
 
