@@ -4,6 +4,7 @@ require 'bundler/setup' if File.exists?(ENV['BUNDLE_GEMFILE'])
 
 # Require gems 
 require 'rubygems'
+require 'json'
 
 require 'uri'
 require 'pathname'
@@ -16,10 +17,13 @@ require 'sinatra'
 require "sinatra/reloader" if development?
 
 require 'erb'
+require 'nokogiri'
 
 APP_ROOT = Pathname.new(File.expand_path('../../', __FILE__))
 
 APP_NAME = APP_ROOT.basename.to_s
+
+DATA_ROOT = Pathname.new(File.expand_path('../../data/raw', __FILE__))
 
 configure do
   set :root, APP_ROOT.to_path
