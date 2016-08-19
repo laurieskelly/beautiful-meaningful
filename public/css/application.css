@@ -2,115 +2,103 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Helvetica;
-  font-size: 14px;
-}
-
 .container {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 1em;
+  margin: 20px auto;
+  width: 70%;
+  padding: 20px;
+  border: 1px dotted black;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 600px;
+  background-color: whitesmoke;
+
 }
 
-.header {
-  padding-top: 2em;
-  padding-bottom: 4em;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
+.header .right {
+    padding-top: 2em;
+    
 }
 
-.header-heading {
-  font-size: 2em;
-  margin: 0;
+.header p {
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 0em;
 }
 
-.main {
-  display: flex;
+.header h2 {
+    text-align: left;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0em;
 }
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #999;
-  padding-top: 2em;
-  padding-bottom: 2em;
+h3 {
+    margin=bottom: 10px;
+    -webkit-margin-after: 0.2em;
 }
 
-.content {
-  flex-basis: 66.66%;
-  padding-right: 6em;
+.separator {
+    margin-top: 10pz;
+    border: 2px #555 solid;
 }
 
-.sidebar {
-  flex-basis: 33.33%;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
+
+.content-wrapper {
+    clear:both;
+    width: 80%;
+    margin: 20px auto 20px;
+    text-align: center;
 }
 
-.sidebar-heading {
-  font-size: 1.5em;
+.content-container {
+    display: inline-block;
+    text-align: left;
+    min-width: 80%;
+    max-width: 100%;
+
+
 }
 
-.errors {
-  color: red;
+.right a, .left a {
+    text-decoration: none;
+    color: #444;
 }
 
-.errors-list {
-  padding: 2em 1em;
+.nav span {
+    color: orangered;
+    font-weight: 600;
+    margin: 10px;
 }
 
-.form {
-  display: block;
-  width: 100%;
+.right {
+    float:right;
 }
 
-.label {
-  display: block;
-  width: 100%;
-  margin-bottom: .25em;
+.left, .right {
+    display: inline-block;
 }
 
-.input {
-  display: block;
-  width: 100%;
-  margin-bottom: 2em;
+.form-container {
+    display: inline-block;
 }
 
-.submit {
-  padding: .5em 0;
+
+form {
+    display: block;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
-.textarea {
-  display: block;
-  width: 100%;
-  height: 10em;
-  resize: none;
-  margin-bottom: 2em;
+form label {
+    margin-right: 20px;
 }
 
-.post-list {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
+form input {
+    display: block;
+    margin: 10px 10px 20px 0px;
+    height: 2em;
 }
 
-.post {
-  margin-bottom: 3em;
-}
-
-.post-details {
-  margin-bottom: 1em;
-}
-
-.post-detail {
-  display: block;
-  margin-bottom: .5em;
+input[type="text"] {
+    height: 1.5em;
+    width: 200px;
+    padding-left: 5px;
 }
