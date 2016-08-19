@@ -1,4 +1,4 @@
 get '/' do 
-  @seasons = Season.all
+  @seasons = Season.order(:year)
   erb :"/seasons/index"
 end

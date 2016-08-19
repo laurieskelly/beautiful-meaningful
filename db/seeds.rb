@@ -2,7 +2,7 @@ require APP_ROOT.join('src','tal_parser.rb')
 
 fails = []
 
-1996.upto(2016) do |year|
+1995.upto(2016) do |year|
 
   parser=SeasonParser.new(year)
 

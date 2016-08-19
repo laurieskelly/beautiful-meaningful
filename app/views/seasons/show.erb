@@ -1,0 +1,18 @@
+<h1>season details for <%= @season.year %></h1>
+
+
+<h2><%= @season.episodes.length %> episodes: </h2>
+
+
+<ul>
+<% @season.episodes.each do | episode | %>
+
+<li>
+    <h3><a href="/episodes/<%= episode.episode_number %>">
+        <%= "#{episode.season_id}: #{episode.episode_number}, #{episode.title}" %>
+    </a></h3>
+</li>
+
+<% end %>
+</ul>
+
