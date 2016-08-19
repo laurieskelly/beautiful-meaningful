@@ -1,3 +1,4 @@
 get '/' do 
-  redirect "/seasons/index"
+  @seasons = Season.all
+  erb :"/seasons/index"
 end
