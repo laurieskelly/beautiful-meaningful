@@ -30,3 +30,5 @@ ActiveRecord::Base.establish_connection(
   :database => DB_NAME,
   :encoding => 'utf8'
 )
+
+ActiveRecord::Base.logger.level = 1
