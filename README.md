@@ -1,4 +1,4 @@
-## A Touch of Glass
+## I'm Laur Skelly and from Dev Bootcamp in Chicago, this is A Touch of Glass. 
 
 This is the MMMVP for my Beautiful & Meaningful Project, the phase 2 capstone at Dev Bootcamp. 
 
@@ -20,6 +20,6 @@ A sampling, below.
 
 ![](readme_assets/mmmvp_sample.png)
 
-### I'm Laur Skelly and from Dev Bootcamp in Chicago, this is A Touch of Glass. 
+
 
 
