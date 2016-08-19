@@ -32,7 +32,8 @@ class EpisodeParser
       title: self.title,
       archive_url: self.archive_url,
       original_air_date: self.air_date,
-      episode_number: self.episode_number
+      episode_number: self.episode_number,
+      season_id: self.year
     }
   end  
 
@@ -58,6 +59,10 @@ class EpisodeParser
   
   def title
     self.header_string.split(':')[1].remove(self.air_date_string).strip
+  end
+
+  def year 
+    self.air_date.split('-')[0].to_i
   end
 
   private 

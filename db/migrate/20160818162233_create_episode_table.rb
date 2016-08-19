@@ -6,6 +6,8 @@ class CreateEpisodeTable < ActiveRecord::Migration
       t.string          :archive_url
       t.date            :original_air_date
 
+      t.integer         :season_id
+
       t.timestamps(null: false)
     end
   end

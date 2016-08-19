@@ -1,6 +1,6 @@
 class Episode < ActiveRecord::Base
 
-  belongs_to :season, primary_key: :year
+  belongs_to :season
 
   self.primary_key = 'episode_number'
 

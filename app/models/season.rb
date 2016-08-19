@@ -1,6 +1,6 @@
 class Season < ActiveRecord::Base
 
-  has_many :episodes, primary_key: :episode_number
+  has_many :episodes, foreign_key: :season_id
   
   self.primary_key = 'year'
   
