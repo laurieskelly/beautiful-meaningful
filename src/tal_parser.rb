@@ -73,16 +73,61 @@ class EpisodeParser
     components.unshift(components.pop).join('-')
   end
 
+  
+
+end
+
+
+class TranscriptParser
+
+  $base_url = 'http://www.thisamericanlife.org/radio-archives/episode/'
+
+  def initialize(episode_number)
+    @transcript_url = $base_url + episode_number + '/transcript'
+    @nk = get_transcript_nokogiri
+    @table_data = {}
+  end
+
+  def get_transcript_nokogiri
+    self.nokogiri_from_url(@transcript_url)
+  end
+
   def nokogiri_from_url(url) 
     Nokogiri.parse(open(url).read)
   end
 
-end
 
-class EpisodeDetailParser
+  # # PARSE NOTES
+  # archive url: http://www.thisamericanlife.org/radio-archives/episode/1/new-beginnings
+  # transcript url: http://www.thisamericanlife.org/radio-archives/episode/1/transcript
+  # 
+  # everything is in: 
+  # <div id="content"><div class="radio-wrapper" id="radio-episode-1">
 
-end
+  # act
+  # <div class="act" id="prologue">
 
-class TranscriptParser
+  # two interview chunks
+  # <div class="interviewer"><h4>Ira Glass</h4><p begin="00:00:00.17">Joe Franklin?</p></div>
+  # <div class="subject"><h4>Joe Franklin</h4><p begin="00:00:00.58">I'm ready.</p></div>
+
+  # two host chunks
+  # <div class="host">
+  # <p begin="00:00:39.96">Well, one great thing about starting a new show is utter anonymity. 
+  #    Nobody really knows what to expect from you. This interviewee did not know us from Adam.</p>
+  # <p begin="00:00:54.89">OK, we're what? About a minute. We're one minute five into the new show. 
+  #    Right now, it is stretching in front of us, a perfect future yet to be fulfilled. An uncharted little world. 
+  #    A little baby coming into the world, no little scars on it or anything.</p>
+  # ... </div>
+
+  # credits
+  # container: <div class="act" id="credits">
+  # host: <div class="host"><h4>Ira Glass</h4>
+
+  # stretch feature
+  # [MUSIC - "DESTINATION MOON" BY DINAH WASHINGTON]
+  
+  
+
 
 end
