@@ -7,5 +7,4 @@ class Chunk < ActiveRecord::Base
   has_one :speaker, through: :person_role, source: :speaker
   has_one :speaker_role, through: :person_role, source: :role
   
-
 end
