@@ -1,4 +1,4 @@
-## I'm Laur Skelly and from Dev Bootcamp in Chicago, this is A Touch of Glass. 
+## I'm Laur Skelly and from WDBC in Chicago, this is A Touch of Glass. 
 
 This American Life first hit the airwaves in 1995, when it was called "Your Radio Playhouse". 
 
@@ -20,6 +20,6 @@ A sampling, below.
 
 ![](readme_assets/mmmvp_sample.png)
 
-
+After the break, an instructor named Duke asks a simple question, one that many of us have asked ourselves, some of us hundreds of times, only on this occasion Duke receives an answer that takes him utterly by surprise, and quite possibly one that no one in history has ever heard before. When a plain old Tuesday beomes anything but. Stay tuned.
 
 
