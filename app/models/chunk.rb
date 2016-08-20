@@ -1,3 +1,9 @@
 class Chunk < ActiveRecord::Base
-  # Remember to create a migration!
+
+  belongs_to :act
+  has_one :episode, through: :act, foreign_key: :episode_number
+
+  has_one :personrole
+  
+
 end

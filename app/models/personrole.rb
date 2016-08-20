@@ -1,3 +1,5 @@
-class Personrole < ActiveRecord::Base
-  # Remember to create a migration!
+class PersonRole < ActiveRecord::Base
+
+  belongs_to :chunk
+
 end

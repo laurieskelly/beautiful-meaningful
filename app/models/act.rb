@@ -1,3 +1,6 @@
 class Act < ActiveRecord::Base
-  # Remember to create a migration!
+
+  belongs_to :episode, foreign_key: :episode_number
+  has_many :chunks
+
 end
