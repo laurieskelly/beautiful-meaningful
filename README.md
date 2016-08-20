@@ -14,12 +14,12 @@ What could I do in about 45 seconds that would take the database I had painstaki
 
 I present to you, as my minimum minimum, _minimum_ viable product, "A Touch of [Ira] Glass."
 
-The script `touch_of_glass.rb` will pull and print a random sampling of my database's collection of 15,841 utterances made by Ira Glass over the course of 577 episodes (2451 acts, including prologues).
+The script `touch_of_glass.rb` will pull and print a random sampling of my database's collection of 24,333 utterances made by Ira Glass over the course of 577 episodes (2451 acts, including prologues).
 
 A sampling, below. 
 
 ![](readme_assets/mmmvp_sample.png)
 
-After the break, an instructor named Duke asks a simple question, one that many of us have asked ourselves, some of us hundreds of times, only on this occasion Duke receives an answer that takes him utterly by surprise, and quite possibly one that no one in history has ever heard before. When a plain old Tuesday beomes anything but. Stay tuned.
+>After the break, an instructor named Duke asks a simple question, one that many of us have asked ourselves, some of us hundreds of times, only on this occasion Duke receives an answer that takes him utterly by surprise, and quite possibly one that no one in history has ever heard before. When a plain old Tuesday beomes anything but. Stay tuned.
 
 
